@@ -1,0 +1,39 @@
+{
+  "name": "Tiledesk Server",
+  "description": "Tildesk server",
+  "repository": "https://github.com/Tiledesk/tiledesk-server/new/master",
+  "logo": "https://tiledesk.com/wp-content/uploads/2018/03/tiledesk-logo.png",
+  "keywords": ["node", "express", "tiledesk", "live chat"],
+  "env": {
+    "FIREBASE_APIKEY": {
+      "description": "Firebase API key.",
+      "value": "AIzaSyCV01ReJnx3j_-yk1PXsb36bNEJ_WpLSn0"
+    },
+     "FIREBASE_CLIENT_EMAIL": {
+      "description": "Firebase Client email.",
+      "value": "firebase-adminsdk-51u66@pypestr-292cb.iam.gserviceaccount.com"
+    },
+     "FIREBASE_PRIVATE_KEY": {
+      "description": "Firebase private key.",
+      "value": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCX16DduoKxBA19\nsLeReCJUjZ7xZVy56YAPORDIz94oHrKN1VQ5n6VbGIi9s3IPnrJZDGUjX6PHvwTN\neFu72HgMwfzhdjvI1ulm7zY6q6pW5fIVIHWLDpwP+QM/xOQM8BZE6qOYvq3ai9kr\nHaneeamQmfWRCkDxQW4pjnPYeZ/VyrdPj/FYRC/zwJ0Gviy5WTdeWi9AD7Z2bosk\nfNvan0BNKt/GamgN1vBpEtBGSVkQaay0zJg4vie8uVYiqS57HceFH5CpAoXXVHHM\nxrwr5Yk+T011qO+JXBzScsTSU0e9e2v0UJ57HpcmwxuoJ2isq5Z/lJuvrEQzDwev\nw/GxIiuDAgMBAAECggEAAoCTLhQ8wx4F+uRGoicQqcQLsn6xIH8wlQ+jryt9xbt7\nxcqWMLzoxK+K0VV7s7YxyjXiFMsmr8v+EETDfjz6/XrU6AJCyfSAtCmNAzqA/B2d\n96spRLlg6QJ5gzuDZpMuSsRzHblGtCtJ0OQUQI5QtQlUeqdompExd43Zat/WOneu\nPh60pD96AlvrkTds4/Y6v+6kHWJj8IwTAx7285ER5n1rntw3orEoj9fqUKrYgQlV\nLjlIoBvoBLEwGVrUYisxp8/zea3yumTJz0yvNsV3TDNcW9o5fzh547Nfgs6RYHgP\nGWjN1mcDfg8IhNPFZ5OfeRtep6ch9y36by2m38uvgQKBgQDF9bku2DXZL0mQ95o0\nyu4PuB6Ypo16eEZXN2r1hp5C+VoNGmQvO/wJ/vavPdfdYBTjbWcB2Sa7L9i0iy+d\n8WDWyUaD1lr+x+8uP/daDgCnctz0pZBabGCJMbEzo+g3OLeIlWFhJ/IPW545Pept\njeYnYsYcGjE0KxJHISWjag+pSwKBgQDEXHVk4a/v7qyii5Yx6eLtTMb0ddVbiJVY\nJX1/U/+xlHNndvdofFVjVSMz25rsi92+AZkPZ/+wrNQeJQC83UZ2qIEKikH6pzbB\noga6bG3fgNxoK3Q7pQxhVY2bGB44kbLsgRc9g1PnTWPMpAGqrqVsGFcWkjZpjqM+\nYvuvmAGbqQKBgQDALOnXZiHwc42RZC2Zrp8pN27MdnPGPtjadnwpWsRs9DDNo586\nk5r8AT5tpTXYPRxKJLzo+Gw3MB3KN4zEYb3HBaKk/gVcba/uUD7Kd+l+pW2HOutG\nPQwCY/FI1ofqg+74czwT23mMGz8hBtB8BlM2TRdR1MOLh3y4/J7TY3VMvQKBgGiX\nRwCBJhGK8/FwoIPdrL3xU1gLG6YxzjqxXXNg7qVMCVxnBcll0KWkR6frpU2yAl6e\nw0RthMg6hpG36/itdEbn4jQXCKXWQ1hIUYUjFDMklEH4Q2UxuLJvu4mNAyvmj4Ni\nD1r4hMyDcFEkWq7rb7lwDZM8NjdrfpBQcPdK5DBhAn8hrjuACgBCxn1I0KQi5tC4\nPV1lO0ABrNiXzG7v4+iFiTxJsR8x0TX+6G3bzcRbve0RxhnFPel+pI0eB7n6UVJr\nhWs6oWIwH5zQycDeo59iDnUBp28gwuM05ucc9Nm4diX2B1T/JO+vANdEfTwIEEqA\nU+In1tfaDAfUmNLZNn7f\n-----END PRIVATE KEY-----\n"
+    },
+     "FIREBASE_PROJECT_ID": {
+      "description": "Firebase project id.",
+      "value": "pypestr-292cb"
+    },
+    "APP_ID": {
+      "description": "A unique identifier for your app.",
+      "value": "1:832366802328:web:d31388d58453217884e7ed"
+    },
+    "SUPER_PASSWORD": {
+      "description": "Super admin password",
+      "value": "superpassword"
+    },
+    "MONGOOSE_AUTOINDEX": {
+      "description": "Autoindex",
+      "value": true
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": ["mongolab"]
+}

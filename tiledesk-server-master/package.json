@@ -1,0 +1,73 @@
+{
+  "name": "@tiledesk/tiledesk-server",
+  "description": "The Tiledesk server module",
+  "version": "1.0.9",
+  "scripts": {
+    "start": "node ./bin/www",
+    "pretest": "mongodb-runner start",
+    "test": "mocha --exit",
+    "posttest": "mongodb-runner stop"
+  },
+  "private": false,
+  "author": "Andrea Leo - Frontiere21 SRL",
+  "license": "AGPL-3.0",
+  "homepage": "https://www.tiledesk.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tiledesk/tiledesk-server"
+  },
+  "engines": {
+    "node": "11.14.0",
+    "npm": ">=6.0.0"
+  },
+  "bin": {
+    "tiledesk-server": "./bin/www"
+  },
+  "dependencies": {
+    "@chat21/chat21-node-sdk": "^1.0.16",
+    "amqplib": "^0.5.3",
+    "app-root-path": "^2.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.1",
+    "chai-http": "^4.2.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "csv-express": "^1.2.2",
+    "debug": "~2.6.0",
+    "dotenv": "^8.0.0",
+    "email-templates": "^3.6.0",
+    "express": "~4.14.1",
+    "express-redis-cache": "^1.1.3",
+    "express-session": "^1.15.2",
+    "fast-csv": "^2.4.1",
+    "firebase-admin": "^7.1.1",
+    "get-timezone-offset": "^1.0.3",
+    "jade": "~1.11.0",
+    "json-rules-engine": "^2.3.3",
+    "jsonwebtoken": "^7.3.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "mongoose": "^4.9.3",
+    "morgan": "^1.7.0",
+    "multer": "^1.3.0",
+    "node-rsa": "^1.0.1",
+    "nodemailer": "^4.6.4",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^2.2.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "~2.3.2",
+    "uniqid": "^5.0.3",
+    "uuid": "^3.3.2",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "nodemon": "^1.18.10",
+    "sinon": "^4.2.2",
+    "sinon-mongoose": "^2.0.2",
+    "mongodb-runner": "4.3.2"
+  }
+}
